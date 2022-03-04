@@ -1,6 +1,5 @@
 *.class
-*.tasty
-count.scala
+*.tasty 
 example.scala
 fibonacci.scala
 max.scala
