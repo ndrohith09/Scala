@@ -1,6 +1,5 @@
 *.class
-*.tasty 
-example.scala
+*.tasty  
 fibonacci.scala
 max.scala
 oddeven.scala
