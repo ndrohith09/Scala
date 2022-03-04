@@ -1,0 +1,7 @@
+*.class
+*.tasty
+count.scala
+example.scala
+fibonacci.scala
+max.scala
+oddeven.scala
