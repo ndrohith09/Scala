@@ -9,12 +9,12 @@ object Checksum {
 }
 class ChecksumCalculator {
   private var sum = 0
-  def add(b: Byte) { sum += b }
+  def add(b: Byte) = { sum += b }
   def checksum: Int = (sum & 0xFF) + 1
 }
 object Main
 {
-  def main(args: Array[String])
+  def main(args: Array[String])=
   {
 
     val cs= Checksum.calcChecksum("scala is fun")
