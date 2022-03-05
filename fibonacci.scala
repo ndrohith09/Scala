@@ -1,6 +1,5 @@
 object MainFun{
  
-
   def fibonacci(n:Int):Int={
     if(n==0) {
         return 0
@@ -13,7 +12,7 @@ object MainFun{
     }
 }
 
- def main(args:Array[String]) = { 
+  def main(args:Array[String]) = { 
  
    println("Fibonacci :" + fibonacci(10))
  }
