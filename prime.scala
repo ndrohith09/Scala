@@ -10,6 +10,6 @@ object Prime{
     }
 
     def main(args:Array[String]) = {
-        println(prime(1))
+        println(prime(2))
     }
 }
