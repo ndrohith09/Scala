@@ -14,7 +14,7 @@ object MainFun{
    return count
   }
 
- def main(args:Array[String]) = {
+  def main(args:Array[String]) = {
     println("Counting :"+counting("Hello"))
     println("Count :"+count("Learn programming" , 'x'))
  }
