@@ -8,4 +8,8 @@ object Prime{
         }
         return true
     }
+
+    def main(args:Array[String]) = {
+        println(prime(1))
+    }
 }
