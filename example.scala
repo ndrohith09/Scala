@@ -2,7 +2,8 @@
 object MainObject{  
 
 def scalaExample = {  
-    println("Hello Scala") 
+    val s = new String("Hello Scala")
+    println(s) 
 }  
 scalaExample   
 }
