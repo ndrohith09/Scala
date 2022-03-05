@@ -6,6 +6,6 @@ class Circle() {
 object Circle {
  def main(args:Array[String])={
   val a= new Circle().calculateArea(5.0)
-  println(a)
+  printlt("Area of circle is: "+a)
  }
 }
